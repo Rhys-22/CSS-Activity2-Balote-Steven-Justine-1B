@@ -16,17 +16,18 @@
     color: white;
     background-size: cover;
    
+   
 }
 #landing h1{
     text-shadow: 1px 1px black;
-    font-size: 50px;
+    font-size: 53px;
     line-height: 0.3;
     
 }
 #landing p{
     text-shadow: 1px 1px black;
     font-size: 18px;
-    padding-bottom: 8%;
+    padding-bottom: 9%;
     margin: -1%;
 }
 #blog{
@@ -92,8 +93,11 @@ div:nth-child(4){
     color: orangered;
 }
 #services{
-    background-color: lightgray;
+    
+    margin-top: 10%;
+    background-color: whitesmoke;
     justify-content: center;
+    height:25vw;
 }
 #services h2{
     padding-top: 100px;
@@ -104,6 +108,7 @@ div:nth-child(4){
     display: inline;
     padding: 30px 40px;
     font-size: 20px;
+   
 }
 li{
     margin-right: 20px;
@@ -115,6 +120,6 @@ li:first-child{
 }
 li:hover{
     box-shadow: -1px -1px 0px -3px rgba(64,64,64,0.75);
-    -webkit-shadow: -1px -1px 8px 1px rgba(64,64,64,0.75);
+    -webkit-box-shadow: -1px -1px 8px 1px rgba(64,64,64,0.75);
     -moz-box-shadow: -1px -1px 8px 1px rgba(64,64,64,0.75);
 }
